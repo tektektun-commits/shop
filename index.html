@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="TECH STORE — Loja de eletrônicos com entrega em domicílio. Atendimento via WhatsApp. Pagamento via Pix e cartão de crédito." />
+    <title>TECH STORE — Eletrônicos com confiança</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="site-header" id="topo">
+      <div class="container header-inner">
+        <!-- Logo -->
+        <a href="#topo" class="logo" aria-label="Ir para o início">
+          <span class="logo-text">
+            <span class="logo-tech">TECH</span>
+            <span class="logo-store">STORE</span>
+          </span>
+        </a>
+
+        <button class="nav-toggle" aria-label="Abrir menu" aria-expanded="false">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </button>
+
+        <nav class="main-nav" aria-label="Navegação principal">
+          <ul>
+            <li><a href="#hero">Início</a></li>
+            <li><a href="#produtos">Produtos</a></li>
+            <li><a href="#avaliacoes">Avaliações</a></li>
+            <li><a href="#contato">Contato</a></li>
+          </ul>
+        </nav>
+        <div class="header-extras">
+          <span class="pill">Entrega em domicílio</span>
+          <span class="pill">Pagamento: Pix • Cartão</span>
+        </div>
+      </div>
+    </header>
+
+    <!-- Black Friday Banner -->
+    <div class="promo-banner" role="status" aria-live="polite">
+      <strong>Black Friday</strong>: ofertas imperdíveis durante esta semana. Aproveite!
+    </div>
+
+    <!-- Hero -->
+    <section id="hero" class="hero">
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <h1 class="welcome">Bem-vindo à TECH STORE</h1>
+          <p class="lead">Somos uma empresa 100% online, nascida em 2025, focada em transparência e agilidade. Realizamos vendas diretamente via WhatsApp, com entrega em domicílio; não há retirada presencial. Pagamento por <strong>Pix</strong> e <strong>cartão de crédito</strong>.</p>
+          <div class="cta-inline">
+            <div class="pill-group">
+              <span class="pill">Entrega em domicílio</span>
+              <span class="pill">Pagamento: Pix • Cartão</span>
+            </div>
+            <a id="whatsapp-hero-btn" class="btn btn-dark" href="#" target="_blank" rel="noopener" aria-label="Chamar no WhatsApp">Chamar no WhatsApp</a>
+          </div>
+        </div>
+        <div class="hero-art">
+          <!-- Carrossel embutido ao lado do texto de boas-vindas -->
+          <section id="produtos" class="products-carousel hero-embed" aria-label="Produtos em destaque">
+            <div class="carousel" aria-label="Carrossel de produtos">
+              <button class="carousel-control prev" aria-label="Anterior">‹</button>
+              <div class="carousel-viewport">
+                <div class="carousel-track" aria-live="polite">
+                  <article class="product-card card" data-whatsapp-message="Quero adquirir a JBL" data-title="Caixa de som JBL">
+                    <img src="https://gazin-images.gazin.com.br/UVUADgzzBKQiljcIzm1CBjOoQ4M=/1920x/filters:format(webp):quality(75)/https://gazin-marketplace.s3.amazonaws.com/midias/imagens/2024/05/caixa-de-som-portatil-jbl-partybox-stage-320-240w-rms-com-bluetooth-e-rodas-092405142710.jpg" alt="Foto caixa de som JBL" />
+                    <div class="product-info">
+                      <h3>Caixa de som JBL</h3>
+                      <p>Som potente com Bluetooth e bateria de longa duração.</p>
+                    </div>
+                  </article>
+                  <article class="product-card card" data-whatsapp-message="Quero comprar o Smartphone" data-title="Smartphone">
+                    <img src="https://fujiokadistribuidor.vteximg.com.br/arquivos/ids/258437" alt="Foto smartphone" />
+                    <div class="product-info">
+                      <h3>Smartphone</h3>
+                      <p>Desempenho rápido e câmeras de alta qualidade.</p>
+                    </div>
+                  </article>
+                  <article class="product-card card" data-whatsapp-message="Quero adquirir o Notebook Gamer" data-title="Notebook Gamer">
+                    <img src="https://m.media-amazon.com/images/I/51wIfoqp5-L._AC_SX569_.jpg" alt="Foto notebook gamer" />
+                    <div class="product-info">
+                      <h3>Notebook Gamer</h3>
+                      <p>Gráficos dedicados e alta performance.</p>
+                    </div>
+                  </article>
+                </div>
+              </div>
+              <button class="carousel-control next" aria-label="Próximo">›</button>
+            </div>
+          </section>
+        </div>
+      </div>
+    </section>
+
+
+    
+
+    <!-- Sobre (removida; conteúdo integrado ao herói) -->
+
+
+
+
+
+
+
+
+    <!-- Black Friday 2025 — Ofertas da Semana -->
+    <section id="blackfriday" class="section bf-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Black Friday 2025 — Ofertas da Semana</h2>
+          <p>Contagem regressiva e ofertas exclusivas para esta semana.</p>
+        </div>
+
+        <!-- Contagem regressiva -->
+        <div id="bf-countdown" class="countdown" data-target="2025-11-28T23:59:59">
+          <div class="time-box">
+            <div class="num" data-unit="days">00</div>
+            <div class="label">Dias</div>
+          </div>
+          <div class="time-box">
+            <div class="num" data-unit="hours">00</div>
+            <div class="label">Horas</div>
+          </div>
+          <div class="time-box">
+            <div class="num" data-unit="minutes">00</div>
+            <div class="label">Min</div>
+          </div>
+          <div class="time-box">
+            <div class="num" data-unit="seconds">00</div>
+            <div class="label">Seg</div>
+          </div>
+        </div>
+
+        <!-- Cupom removido conforme solicitação -->
+
+        <!-- Ofertas -->
+        <!-- Dica: salve suas imagens em uma pasta "img/" ao lado deste arquivo e referencie com src="img/nome-do-arquivo.jpg" -->
+        <div class="grid deals-grid" id="offers-grid">
+          <article class="deal-card card">
+            <div class="deal-media">
+              <!-- Imagem do produto Black Friday (PS5): substitua o src pelo link ou caminho local -->
+              <img src="https://images.kabum.com.br/produtos/fotos/636960/console-playstation-5-pro-sony-ssd-2tb-controle-sem-fio-dualsense-branco-1000046552_1727095996_gg.jpg" alt="Foto PlayStation 5" />
+            </div>
+            <h3>PlayStation 5</h3>
+            <p>Console novo, garantia e parcelamento no cartão.</p>
+            <span class="deal-badge pill">-20%</span>
+          </article>
+          <article class="deal-card card">
+            <div class="deal-media">
+              <!-- Imagem do produto Black Friday (JBL): substitua o src pelo link ou caminho local -->
+              <img src="https://images.tcdn.com.br/img/img_prod/993382/jbl_party_box_110_caixa_de_som_portatil_bass_boost_bluetooth_led_613_1_0cdcca337366bf2e7031c9b3778423e6.jpg" alt="Foto caixa de som JBL" />
+            </div>
+            <h3>Caixas de som JBL</h3>
+            <p>Bluetooth, bateria longa e som potente.</p>
+            <span class="deal-badge pill">-25%</span>
+          </article>
+          <article class="deal-card card">
+            <div class="deal-media">
+              <!-- Imagem do produto Black Friday (Projetor): substitua o src pelo link ou caminho local -->
+              <img src="https://m.media-amazon.com/images/I/51iKo2U0-3L._AC_UF1000,1000_QL80_.jpg" alt="Foto projetor" />
+            </div>
+            <h3>Projetores</h3>
+            <p>Imagem nítida para filmes e apresentações.</p>
+            <span class="deal-badge pill">-30%</span>
+          </article>
+          <article class="deal-card card">
+            <div class="deal-media">
+              <!-- Imagem do produto Black Friday (Smart TV): substitua o src pelo link ou caminho local -->
+              <img src="https://www.lg.com/content/dam/channel/wcms/br/images/tv/43ur7800psa_awz_essp_br_c/gallery/D-01.jpg" alt="Foto Smart TV" />
+            </div>
+            <h3>Smart TVs</h3>
+            <p>4K, HDR e apps integrados.</p>
+            <span class="deal-badge pill">-18%</span>
+          </article>
+          <article class="deal-card card">
+            <div class="deal-media">
+              <!-- Imagem do produto Black Friday (Notebook): substitua o src pelo link ou caminho local -->
+              <img src="https://mastertek.bwimg.com.br/mastertek/produtos/notebook-acer-gamer-nitro-5-amd-ryzen-7-8gb---512gb-ssd-placa-video-rtx-3050-tela-15-6--n22c1-an515-47-r5su-1699555242.1415.jpeg" alt="Foto notebook" />
+            </div>
+            <h3>Notebooks</h3>
+            <p>Trabalho, estudo e jogos com performance.</p>
+            <span class="deal-badge pill">-15%</span>
+          </article>
+          <article class="deal-card card">
+            <div class="deal-media">
+              <!-- Imagem do produto Black Friday (Headphones): substitua o src pelo link ou caminho local -->
+              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTvRVpjQx9lrJuNZU6ye5XLIasOHdI0beIhpg&s" alt="Foto headphones" />
+            </div>
+            <h3>Headphones</h3>
+            <p>Conforto e qualidade sonora.</p>
+            <span class="deal-badge pill">-22%</span>
+          </article>
+        </div>
+
+        <!-- Benefícios removidos conforme solicitação -->
+
+        <!-- Newsletter removida conforme solicitação -->
+      </div>
+    </section>
+
+    <!-- Comentários (formato feed) -->
+    <section id="avaliacoes" class="section alt">
+      <div class="container">
+        <div class="section-header">
+          <h2>Comentários recentes</h2>
+          <p>Veja comentários em tempo real de quem está comprando.</p>
+          <div class="section-actions">
+            <a class="btn btn-dark" href="#" aria-disabled="true">Comentar</a>
+          </div>
+        </div>
+        <div class="comments-feed">
+          <article class="comment-item card">
+            <div class="comment-meta">
+              <span class="comment-author">Ana P.</span>
+              <span class="comment-time">• há 1 hora</span>
+            </div>
+            <p class="comment-content">Acabei de comprar a caixa de som JBL. Atendimento rápido e já recebi o comprovante. :)</p>
+            <div class="comment-actions" aria-disabled="true">
+              <a class="comment-action" href="#" aria-disabled="true">Curtir</a>
+              <span class="dot">•</span>
+              <a class="comment-action" href="#" aria-disabled="true">Comentar</a>
+            </div>
+          </article>
+
+          <article class="comment-item card">
+            <div class="comment-meta">
+              <span class="comment-author">Marcos R.</span>
+              <span class="comment-time">• há 2 horas</span>
+            </div>
+            <p class="comment-content">Console veio lacrado com nota fiscal. Instalei e já estou jogando. Recomendo!</p>
+            <div class="comment-actions" aria-disabled="true">
+              <a class="comment-action" href="#" aria-disabled="true">Curtir</a>
+              <span class="dot">•</span>
+              <a class="comment-action" href="#" aria-disabled="true">Comentar</a>
+            </div>
+          </article>
+
+          <article class="comment-item card">
+            <div class="comment-meta">
+              <span class="comment-author">Camila S.</span>
+              <span class="comment-time">• há 1 dia</span>
+            </div>
+            <p class="comment-content">Gente, é real esses descontos? Alguém comprou? Vi um anúncio no Facebook e vim ver.</p>
+            <div class="comment-actions" aria-disabled="true">
+              <a class="comment-action" href="#" aria-disabled="true">Curtir</a>
+              <span class="dot">•</span>
+              <a class="comment-action" href="#" aria-disabled="true">Comentar</a>
+            </div>
+            <div class="comment-replies">
+              <article class="comment-item reply card">
+                <div class="comment-meta">
+                  <span class="comment-author">Pedro A.</span>
+                  <span class="comment-time">• respondeu há 1 hora</span>
+                </div>
+                <p class="comment-content">Sim! Acabei de comprar e já me mandaram o código de rastreio.</p>
+                <div class="comment-actions" aria-disabled="true">
+                  <a class="comment-action" href="#" aria-disabled="true">Curtir</a>
+                  <span class="dot">•</span>
+                  <a class="comment-action" href="#" aria-disabled="true">Comentar</a>
+                </div>
+              </article>
+            </div>
+          </article>
+
+          <article class="comment-item card">
+            <div class="comment-meta">
+              <span class="comment-author">Júlia M.</span>
+              <span class="comment-time">• há 2 dias</span>
+            </div>
+            <p class="comment-content">Comprei um projetor, qualidade ótima e entrega pontual. Sem burocracia.</p>
+            <div class="comment-actions" aria-disabled="true">
+              <a class="comment-action" href="#" aria-disabled="true">Curtir</a>
+              <span class="dot">•</span>
+              <a class="comment-action" href="#" aria-disabled="true">Comentar</a>
+            </div>
+          </article>
+
+          <article class="comment-item card">
+            <div class="comment-meta">
+              <span class="comment-author">Pedro A.</span>
+              <span class="comment-time">• há 3 dias</span>
+            </div>
+            <p class="comment-content">Smartphone Samsung chegou hoje, câmera top. Atendimento foi muito claro.</p>
+            <div class="comment-actions" aria-disabled="true">
+              <a class="comment-action" href="#" aria-disabled="true">Curtir</a>
+              <span class="dot">•</span>
+              <a class="comment-action" href="#" aria-disabled="true">Comentar</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contato / Rodapé -->
+    <footer id="contato" class="site-footer">
+      <div class="container footer-inner">
+        <div class="footer-brand">
+          <h3 class="brand">TECH STORE</h3>
+          <p class="note">Empresa 100% online, nascida em 2025. Entrega em domicílio; não há retirada presencial. Atendimento via WhatsApp. Pagamento por Pix e cartão de crédito.</p>
+          <div class="footer-payments">
+            <p class="payments-note">Aceitamos Pix e cartões de crédito</p>
+            <div class="payment-badges" aria-label="Bandeiras de cartão aceitas">
+              <!-- Visa -->
+              <svg viewBox="0 0 80 24" aria-hidden="true"><rect x="0" y="0" width="80" height="24" rx="4" fill="#1A1F71"/><text x="10" y="16" fill="#fff" font-size="12" font-family="Inter, Arial" font-weight="700">VISA</text></svg>
+              <!-- MasterCard -->
+              <svg viewBox="0 0 80 24" aria-hidden="true"><rect x="0" y="0" width="80" height="24" rx="4" fill="#fff" stroke="#e5e7eb"/><circle cx="34" cy="12" r="8" fill="#EB001B"/><circle cx="46" cy="12" r="8" fill="#F79E1B"/></svg>
+              <!-- Elo -->
+              <svg viewBox="0 0 80 24" aria-hidden="true"><rect x="0" y="0" width="80" height="24" rx="4" fill="#000"/><text x="12" y="16" fill="#fff" font-size="12" font-family="Inter, Arial" font-weight="700">Elo</text></svg>
+              <!-- Pix -->
+              <svg viewBox="0 0 80 24" aria-hidden="true"><rect x="0" y="0" width="80" height="24" rx="4" fill="#00C6A7"/><text x="12" y="16" fill="#003A2B" font-size="12" font-family="Inter, Arial" font-weight="700">PIX</text></svg>
+            </div>
+          </div>
+        </div>
+        <div class="footer-contact">
+          <h3>Contato</h3>
+          <ul>
+            <li>Email: <a href="mailto:contato@techstore.com">contato@techstore.com</a></li>
+            <li>WhatsApp: <a href="https://wa.me/5500000000000" target="_blank" rel="noopener">(00) 00000-0000</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <div class="container">
+          <p>&copy; <span id="year"></span> TECH STORE — Todos os direitos reservados.</p>
+        </div>
+      </div>
+    </footer>
+
+
+    <script src="script.js"></script>
+  </body>
+  </html>

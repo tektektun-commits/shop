@@ -2,7 +2,7 @@
 document.addEventListener('DOMContentLoaded', () => {
   document.body.classList.add('loaded');
   // Número de WhatsApp usado nos redirecionamentos (DDI+DDD+Número, só dígitos)
-  const whatsappNumber = '5500000000000';
+  const whatsappNumber = '5511996336323';
   const yearEl = document.getElementById('year');
   if (yearEl) yearEl.textContent = new Date().getFullYear();
 
